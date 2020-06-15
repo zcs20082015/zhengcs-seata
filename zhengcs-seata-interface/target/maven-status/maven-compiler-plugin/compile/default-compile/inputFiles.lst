@@ -1,0 +1,8 @@
+/Users/zhengchunsheng/IdeaProjects/zhengcs/zhengcs-seata/zhengcs-seata-interface/src/main/java/com/zhengcs/seata/interfaces/dubbo/domain/request/AccountRequest.java
+/Users/zhengchunsheng/IdeaProjects/zhengcs/zhengcs-seata/zhengcs-seata-interface/src/main/java/com/zhengcs/seata/interfaces/dubbo/domain/response/Result.java
+/Users/zhengchunsheng/IdeaProjects/zhengcs/zhengcs-seata/zhengcs-seata-interface/src/main/java/com/zhengcs/seata/interfaces/dubbo/domain/request/BaseRequest.java
+/Users/zhengchunsheng/IdeaProjects/zhengcs/zhengcs-seata/zhengcs-seata-interface/src/main/java/com/zhengcs/seata/interfaces/dubbo/service/DubboStorageService.java
+/Users/zhengchunsheng/IdeaProjects/zhengcs/zhengcs-seata/zhengcs-seata-interface/src/main/java/com/zhengcs/seata/interfaces/dubbo/service/DubboOrderService.java
+/Users/zhengchunsheng/IdeaProjects/zhengcs/zhengcs-seata/zhengcs-seata-interface/src/main/java/com/zhengcs/seata/interfaces/dubbo/domain/request/OrderRequest.java
+/Users/zhengchunsheng/IdeaProjects/zhengcs/zhengcs-seata/zhengcs-seata-interface/src/main/java/com/zhengcs/seata/interfaces/dubbo/service/DubboAccountService.java
+/Users/zhengchunsheng/IdeaProjects/zhengcs/zhengcs-seata/zhengcs-seata-interface/src/main/java/com/zhengcs/seata/interfaces/dubbo/domain/request/StorageRequest.java

@@ -1,0 +1,11 @@
+com/zhengcs/seata/interfaces/dubbo/service/DubboStorageService.class
+com/zhengcs/seata/interfaces/dubbo/service/DubboOrderService.class
+com/zhengcs/seata/interfaces/dubbo/domain/request/BaseRequest.class
+com/zhengcs/seata/interfaces/dubbo/domain/request/OrderRequest.class
+com/zhengcs/seata/interfaces/dubbo/domain/request/StorageRequest$StorageRequestBuilder.class
+com/zhengcs/seata/interfaces/dubbo/domain/request/AccountRequest.class
+com/zhengcs/seata/interfaces/dubbo/domain/response/Result.class
+com/zhengcs/seata/interfaces/dubbo/domain/request/StorageRequest.class
+com/zhengcs/seata/interfaces/dubbo/service/DubboAccountService.class
+com/zhengcs/seata/interfaces/dubbo/domain/request/OrderRequest$OrderRequestBuilder.class
+com/zhengcs/seata/interfaces/dubbo/domain/request/AccountRequest$AccountRequestBuilder.class
