@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13193326-45a5-40d3-a910-893ad481cb9a" name="Default Changelist" comment="" />
+    <list default="true" id="13193326-45a5-40d3-a910-893ad481cb9a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +17,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -29,8 +35,10 @@
     </option>
   </component>
   <component name="ProjectId" id="1dL01DG6AUU4OqbLr1fAhue2mvN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/zhengcs-seata-storage/src/main/resources/mapper" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
@@ -45,11 +53,11 @@
       <recent name="com.zhengcs.seata.order.mapper" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/sql" />
       <recent name="$PROJECT_DIR$/zhengcs-seata-storage/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/zhengcs-seata-account/src/main/resources" />
       <recent name="$PROJECT_DIR$/zhengcs-seata-storage/src/main/resources" />
       <recent name="$PROJECT_DIR$/zhengcs-seata-order/src/main/resources" />
-      <recent name="$PROJECT_DIR$/zhengcs-seata-busi/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -154,5 +162,16 @@
       <updated>1592188848262</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
