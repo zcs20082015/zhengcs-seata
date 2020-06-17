@@ -9,6 +9,7 @@
         <option value="$PROJECT_DIR$/zhengcs-seata-account/pom.xml" />
         <option value="$PROJECT_DIR$/zhengcs-seata-storage/pom.xml" />
         <option value="$PROJECT_DIR$/zhengcs-seata-busi/pom.xml" />
+        <option value="$PROJECT_DIR$/zhengcs-seata-multi-source/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

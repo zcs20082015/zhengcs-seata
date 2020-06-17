@@ -2,7 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13193326-45a5-40d3-a910-893ad481cb9a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/java/com/zhengcs/seata/multi/datasource/config/DBAccountConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/java/com/zhengcs/seata/multi/datasource/config/DBOrderConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/java/com/zhengcs/seata/multi/datasource/entity/account/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/java/com/zhengcs/seata/multi/datasource/mapper/account/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/java/com/zhengcs/seata/multi/datasource/mapper/order/OrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/java/com/zhengcs/seata/multi/datasource/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/java/com/zhengcs/seata/multi/datasource/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mapper/account/AccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mapper/order/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mybatis-configuration.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,29 +48,36 @@
     </option>
   </component>
   <component name="ProjectId" id="1dL01DG6AUU4OqbLr1fAhue2mvN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/sql" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mapper/account" />
+      <recent name="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mapper/order" />
+      <recent name="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mapper" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.zhengcs.seata.storage.util" />
-      <recent name="com.zhengcs.seata.account.service" />
-      <recent name="com.zhengcs.seata.account.config" />
-      <recent name="com.zhengcs.seata.order.service" />
-      <recent name="com.zhengcs.seata.order.mapper" />
+      <recent name="com.zhengcs.seata.multi.datasource.service" />
+      <recent name="com.zhengcs.seata.multi.datasource.config" />
+      <recent name="com.zhengcs.seata.multi.datasource.mapper.account" />
+      <recent name="com.zhengcs.seata.multi.datasource.mapper.order" />
+      <recent name="com.zhengcs.seata.multi.datasource.entity.account" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources" />
+      <recent name="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mapper/account" />
+      <recent name="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mapper.account" />
+      <recent name="$PROJECT_DIR$/zhengcs-seata-multi-source/src/main/resources/mapper.order" />
       <recent name="$PROJECT_DIR$/sql" />
-      <recent name="$PROJECT_DIR$/zhengcs-seata-storage/src/main/resources/mapper" />
-      <recent name="$PROJECT_DIR$/zhengcs-seata-account/src/main/resources" />
-      <recent name="$PROJECT_DIR$/zhengcs-seata-storage/src/main/resources" />
-      <recent name="$PROJECT_DIR$/zhengcs-seata-order/src/main/resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -72,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ZhengcsSeataBusiApplication">
+  <component name="RunManager" selected="JUnit.ZhengcsSeataMultiSourceApplicationTests.test">
     <configuration name="ZhengcsSeataAccountApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.zhengcs.seata.account.ZhengcsSeataAccountApplication" />
       <module name="zhengcs-seata-account" />
@@ -99,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZhengcsSeataOrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhengcs.seata.order.ZhengcsSeataOrderApplication" />
-      <module name="zhengcs-seata-order" />
+    <configuration name="ZhengcsSeataMultiSourceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhengcs.seata.multi.datasource.ZhengcsSeataMultiSourceApplication" />
+      <module name="zhengcs-seata-multi-source" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhengcs.seata.order.*" />
+          <option name="PATTERN" value="com.zhengcs.seata.multi.datasource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -112,41 +132,45 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZhengcsSeataStorageApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.zhengcs.seata.storage.ZhengcsSeataStorageApplication" />
-      <module name="zhengcs-seata-storage" />
+    <configuration name="ZhengcsSeataMultiSourceApplicationTests.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zhengcs-seata-multi-source" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhengcs.seata.storage.*" />
+          <option name="PATTERN" value="com.zhengcs.seata.multi.datasource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.zhengcs.seata.multi.datasource" />
+      <option name="MAIN_CLASS_NAME" value="com.zhengcs.seata.multi.datasource.ZhengcsSeataMultiSourceApplicationTests" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZhengcsSeataAccountApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="zhengcs-seata-account" />
+    <configuration name="ZhengcsSeataMultiSourceApplicationTests.testA" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="zhengcs-seata-multi-source" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.zhengcs.seata.account.*" />
+          <option name="PATTERN" value="com.zhengcs.seata.multi.datasource.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.zhengcs.seata.account" />
-      <option name="MAIN_CLASS_NAME" value="com.zhengcs.seata.account.ZhengcsSeataAccountApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.zhengcs.seata.multi.datasource" />
+      <option name="MAIN_CLASS_NAME" value="com.zhengcs.seata.multi.datasource.ZhengcsSeataMultiSourceApplicationTests" />
+      <option name="METHOD_NAME" value="testA" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ZhengcsSeataMultiSourceApplicationTests.test" />
+        <item itemvalue="JUnit.ZhengcsSeataMultiSourceApplicationTests.testA" />
+        <item itemvalue="Application.ZhengcsSeataMultiSourceApplication" />
         <item itemvalue="Application.ZhengcsSeataBusiApplication" />
         <item itemvalue="Application.ZhengcsSeataAccountApplication" />
-        <item itemvalue="Application.ZhengcsSeataStorageApplication" />
-        <item itemvalue="Application.ZhengcsSeataOrderApplication" />
-        <item itemvalue="JUnit.ZhengcsSeataAccountApplicationTests" />
       </list>
     </recent_temporary>
   </component>

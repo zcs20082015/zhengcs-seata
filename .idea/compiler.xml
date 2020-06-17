@@ -7,10 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="zhengcs-seata-account" />
-        <module name="zhengcs-seata-storage" />
         <module name="zhengcs-seata-order" />
-        <module name="zhengcs-seata-interface" />
+        <module name="zhengcs-seata-storage" />
         <module name="zhengcs-seata-busi" />
+        <module name="zhengcs-seata-interface" />
+        <module name="zhengcs-seata-multi-source" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +25,7 @@
       <module name="zhengcs-seata-account" options="-parameters" />
       <module name="zhengcs-seata-busi" options="-parameters" />
       <module name="zhengcs-seata-interface" options="-parameters" />
+      <module name="zhengcs-seata-multi-source" options="-parameters" />
       <module name="zhengcs-seata-order" options="-parameters" />
       <module name="zhengcs-seata-storage" options="-parameters" />
     </option>
